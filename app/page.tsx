@@ -4,6 +4,7 @@ import SobreMi from "@/components/sections/About";
 import Stack from "@/components/sections/Stacks";
 import Projects from "@/components/sections/Projects";
 import Services from "@/components/sections/Services";
+import Recommendations from "@/components/sections/Recomendations";
 
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
       <Stack />
       <Projects />
       <Services />
+      <Recommendations />
     </main>
 
 

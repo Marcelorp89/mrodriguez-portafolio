@@ -8,7 +8,7 @@ const navLinks = [
   { href: "#stack",     label: "Stack",     icon: <TbStack2  size={16} />},
   { href: "#projects",  label: "Proyectos", icon: <TbLayoutGrid  size={16} />},
   { href: "#services",  label: "Servicios", icon: <TbBriefcase  size={16} />},
-  { href: "#recomendations",  label: "Referencias", icon: <TbStar   size={16} />},
+  { href: "#recommendations",  label: "Referencias", icon: <TbStar   size={16} />},
   { href: "#contact",   label: "Contacto",  icon: <TbMail  size={16} />},
 ]
 
