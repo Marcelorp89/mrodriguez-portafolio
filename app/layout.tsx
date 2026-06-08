@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import Sidebar from "@/components/ui/Sidebar"
+import BottomNav from "@/components/ui/BottomNav"
+
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -23,11 +26,23 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html
-      lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
-    >
-      <body className="min-h-full flex flex-col">{children}</body>
+    <html lang="es">
+      <body className="bg-neutral-950 text-neutral-100">
+
+        <div className="flex">
+          {/* Sidebar — solo desktop */}
+          <Sidebar />
+
+          {/* Contenido principal — con margen izquierdo en desktop */}
+          <main className="flex-1 md:ml-52 min-h-screen px-8 py-6">
+            {children}
+          </main>
+        </div>
+
+        {/* Bottom nav — solo móvil */}
+        <BottomNav />
+
+      </body>
     </html>
   );
 }
