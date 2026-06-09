@@ -5,6 +5,7 @@ import Stack from "@/components/sections/Stacks";
 import Projects from "@/components/sections/Projects";
 import Services from "@/components/sections/Services";
 import Recommendations from "@/components/sections/Recomendations";
+import Form from "@/components/sections/Form";
 
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
       <Projects />
       <Services />
       <Recommendations />
+      <Form />
     </main>
 
 

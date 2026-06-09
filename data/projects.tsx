@@ -34,10 +34,10 @@ export const projects: Project[] = [
     client: "Proyecto personal",
     role: "Desarrollador Frontend",
     stack: ["React", "Tailwind CSS", "API externa"],
-    year: 2024,
+    year: 2026,
     category: "Aplicación Web",
-    liveUrl: "https://weather-app-jade-six-59.vercel.app/",
-    repoUrl: "https://github.com/Marcelorp89/weather-app.git", // ← agrega tu repo GitHub
+    liveUrl: "https://weather-app-jade-six-59.vercel.app/", // link website
+    repoUrl: "https://github.com/Marcelorp89/weather-app.git", // GitHub
     coverImage: "https://res.cloudinary.com/dcnclxmwv/image/upload/v1780117142/portafolio/api%20clima/16_g7oxdp.png",
     heroImage: "https://res.cloudinary.com/dcnclxmwv/image/upload/v1780117143/portafolio/api%20clima/17_bxstj8.png",
     description:
@@ -77,11 +77,11 @@ export const projects: Project[] = [
       },
       {
         url: "https://res.cloudinary.com/dcnclxmwv/image/upload/v1780117141/portafolio/api%20clima/15_e9bmr9.png",
-        label: "Vista móvil",
+        label: "Detalle resultados",
       },
       {
         url: "https://res.cloudinary.com/dcnclxmwv/image/upload/v1780117139/portafolio/api%20clima/13_edmfbt.png",
-        label: "Detalle resultados",
+        label: "Vista móvil",
       },
     ],
     results: [
@@ -107,7 +107,7 @@ export const projects: Project[] = [
     client: "Proyecto personal",
     role: "Desarrollador Frontend",
     stack: ["React", "Tailwind CSS", "API externa"],
-    year: 2026,
+    year: 2025,
     category: "Aplicación Web",
     liveUrl: "https://proyectos-divisas-v2.vercel.app/",
     repoUrl: "https://github.com/Marcelorp89/proyectos_divisas_v2", // ← agrega tu repo GitHub
@@ -154,7 +154,7 @@ export const projects: Project[] = [
       },
       {
         url: "https://res.cloudinary.com/dcnclxmwv/image/upload/v1780118967/portafolio/api%20divisas/19_juqeqf.png",
-        label: "Vista detalle",
+        label: "Vista móvil",
       },
     ],
     results: [
@@ -175,9 +175,9 @@ export const projects: Project[] = [
 
   {
     slug: "carniceria-tolten",
-    title: "Carnicería Toltén",
+    title: "Carnes Abdul",
     tagline: "Presencia digital para un negocio local",
-    client: "Carnicería Toltén",
+    client: "Carnes Abdul",
     role: "Desarrollador Full Stack",
     stack: ["React", "Tailwind CSS"],
     year: 2026,
@@ -194,9 +194,9 @@ export const projects: Project[] = [
       research:
         "Reunión con el cliente para entender necesidades, público objetivo y cómo presentar el catálogo de productos, reseña histórica del negocio y canales de comunicación. Se realizó una investigación de sitios web de carnicerías para evaluar los alcances que podría tener el sitio web que se estaba construyendo. Se realizó un análisis de mapas y geolocalización de ciudades y de puntos de interés. ",
       design:
-        "La interfaz tenía que responde a la paleta de colores acorde a la identidad del negocio. Tenía que responder a una experincia centrada en el usuario, simple y con diseño responsive.",
+        "La interfaz tenía que responder a la paleta de colores acorde a la identidad del negocio. Tenía que responder a una experincia centrada en el usuario, simple y con diseño responsive.",
       development:
-        "Implementación con React y Tailwind CSS. Componentes reutilizables y diseño completamente responsive.",
+        "Implementación con React y Tailwind CSS. Componentes reutilizables y diseño completamente responsive. Se implementó el uso de Google Maps, y botón de respuesta automática de Whatsapp",
     },
     solution: {
       summary:
@@ -222,11 +222,11 @@ export const projects: Project[] = [
         label: "Vista desktop",
       },
       {
-        url: "https://res.cloudinary.com/dcnclxmwv/image/upload/v1780117109/portafolio/carniceria/9_vftdux.png",
+        url: "https://res.cloudinary.com/dcnclxmwv/image/upload/v1780117108/portafolio/carniceria/7_velp3m.png",
         label: "Vista móvil",
       },
       {
-        url: "https://res.cloudinary.com/dcnclxmwv/image/upload/v1780117108/portafolio/carniceria/7_velp3m.png",
+        url: "https://res.cloudinary.com/dcnclxmwv/image/upload/v1780117109/portafolio/carniceria/9_vftdux.png",
         label: "Detalle sección",
       },
     ],
@@ -248,12 +248,12 @@ export const projects: Project[] = [
 
   {
     slug: "club-pesca-chinook-tolten",
-    title: "Club de Pesca Chinook Toltén",
+    title: "Club de Pesca y Caza Chinook Toltén",
     tagline: "La comunidad de pescadores de Toltén", // ← agrega tu frase motivacional
-    client: "Club Chinook Toltén",
+    client: "Directorio del Club de Pesca y Caza Chinook Toltén",
     role: "Desarrollador Full Stack",
     stack: ["Next.js", "Tailwind CSS", "Cloudinary", "Framer Motion"],
-    year: 2025,
+    year: 2026,
     category: "Sitio Institucional",
     liveUrl: "https://clubchinooktolten.netlify.app",
     repoUrl: "https://github.com/Marcelorp89/clubpesca", // ← agrega repo GitHub
@@ -267,7 +267,7 @@ export const projects: Project[] = [
       research:
         "Levantamiento de requerimientos con la directiva del club. Definición de secciones, contenido y paleta visual acorde a la identidad marina del club.",
       design:
-        "Identidad visual con azul marino y acento naranja. Diseño de galería por año y directorio de socios.",
+        "Identidad visual con azul marino y acento naranja. Diseño de galería de fotos por año, directorio de socios, mapa de ubicación y formulario de contacto.",
       development:
         "Implementación con Next.js App Router y Tailwind CSS v4. Integración con Cloudinary, Google Calendar, Formspree y Framer Motion.",
     },
@@ -296,15 +296,15 @@ export const projects: Project[] = [
       },
       {
         url: "https://res.cloudinary.com/dcnclxmwv/image/upload/v1780117054/portafolio/fotos-pesca/3_yduixb.png",
-        label: "Vista móvil",
+        label: "Vista móvil galeria de fotos",
       },
       {
         url: "https://res.cloudinary.com/dcnclxmwv/image/upload/v1780117054/portafolio/fotos-pesca/1_dmrgyz.png",
-        label: "Galería de fotos",
+        label: "Vista móvil",
       },
       {
         url: "https://res.cloudinary.com/dcnclxmwv/image/upload/v1780117054/portafolio/fotos-pesca/2_cyjkul.png",
-        label: "Directorio socios",
+        label: "Vista móvil formulario",
       },
     ],
     results: [
