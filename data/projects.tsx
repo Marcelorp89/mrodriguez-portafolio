@@ -38,7 +38,7 @@ export const projects: Project[] = [
     category: "Aplicación Web",
     liveUrl: "https://weather-app-jade-six-59.vercel.app/", // link website
     repoUrl: "https://github.com/Marcelorp89/weather-app.git", // GitHub
-    coverImage: "https://res.cloudinary.com/dcnclxmwv/image/upload/v1780117142/portafolio/api%20clima/16_g7oxdp.png",
+    coverImage: "/8.png",
     heroImage: "https://res.cloudinary.com/dcnclxmwv/image/upload/v1780117143/portafolio/api%20clima/17_bxstj8.png",
     description:
       "Aplicación web que consume la API externa Open Weather Map para mostrar el clima actual de cualquier ciudad del mundo. Muestra temperatura, humedad, viento y condición climática en tiempo real. Además, según estas condiciones climáticas, recomienda al usuario que tipo de ropa usar",
@@ -320,6 +320,82 @@ export const projects: Project[] = [
         title: "Gestión simple",
         description: "Eventos actualizados desde Google Calendar sin tocar código.",
       },
+    ],
+  },
+    {
+    slug: "portafolio-webscraping",
+    title: "Portafolio de Webscraping",
+    tagline: "Datos dispersos, información útil", // ← agrega tu frase motivacional
+    client: "Proyecto personal",
+    role: "Desarrollador de automatización",
+    stack: ["Python", "BeautifulSoup", "Pandas", "openpyxl", "Request"],
+    year: 2026,
+    category: "Automatización y datos",
+    liveUrl: "",
+    repoUrl: "", // ← agrega repo GitHub
+    coverImage: "/5.png",
+    heroImage: "/6.png",
+    description:
+      "Portafolio de proyectos de web scraping desarrollados en Python. Incluye extracción de datos exportados a Excel, JSON y visualización directa en consola, demostrando distintos flujos de trabajo con datos web.",
+    challenge:
+      "Demostrar capacidad técnica en extracción y estructuración de datos web, cubriendo distintos casos de uso: exportación a formatos de oficina, serialización para APIs y visualización en terminal.",
+    process: {
+      research:
+        "Selección de books.toscrape.com como sitio de práctica estándar en la comunidad de scraping. Definición de tres flujos de salida distintos para demostrar versatilidad.",
+      design:
+        "Diseño del portafolio en Next.js con paleta oscura y acento verde, reforzando la identidad técnica y de terminal asociada al mundo de los datos.",
+      development:
+        "Implementación de tres scripts Python independientes con Requests y BeautifulSoup. Portafolio construido en Next.js 15 con App Router, Tailwind CSS y desplegado en Vercel.",
+    },
+    solution: {
+      summary:
+        "Tres proyectos de scraping que demuestran el flujo completo de extracción, estructuración y exportación de datos web en distintos formatos.",
+      features: [
+        {
+          title: "Scraping en Excel",
+          description: "Datos extraídos y exportados a .xlsx con Pandas y openpyxl, listos para analizar en Excel.",
+        },
+        {
+          title: "Scraping en JSON",
+          description: "Datos serializados en formato JSON, listos para consumir en cualquier aplicación o API.",
+        },
+        {
+          title: "Scraping en Consola",
+          description: "Visualización directa en terminal con paginación automática mediante bucle while.",
+        },
+      ],
+    },
+    gallery: [
+       {
+        url: "/1.png",
+        label: "Vista desktop",
+      },
+      {
+        url: "/2.png",
+        label: "Vista desktop proyecto excel",
+      },
+      {
+        url: "/3.png",
+        label: "Vista móvil",
+      },
+      {
+        url: "/4.png",
+        label: "Vista móvil formulario",
+      },
+    ],
+    results: [
+         {
+      title: "3 proyectos documentados",
+      description: "Cada proyecto con paso a paso, imágenes de código y repositorio en GitHub.",
+    },
+    {
+      title: "Paginación automática",
+      description: "Los scripts recorren todas las páginas del sitio sin intervención manual.",
+    },
+    {
+      title: "Tres formatos de salida",
+      description: "Excel, JSON y consola cubriendo los casos de uso más comunes en extracción de datos.",
+    },
     ],
   },
 ]
