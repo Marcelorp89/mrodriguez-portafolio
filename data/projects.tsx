@@ -331,7 +331,7 @@ export const projects: Project[] = [
     stack: ["Python", "BeautifulSoup", "Pandas", "openpyxl", "Request"],
     year: 2026,
     category: "Automatización y datos",
-    liveUrl: "https://mrodriguez-portafolio.vercel.app/",
+    liveUrl: "https://portafolio-webscraping-v2.vercel.app/",
     repoUrl: "https://github.com/Marcelorp89/mrodriguez-portafolio", // ← agrega repo GitHub
     coverImage: "/5.png",
     heroImage: "/6.png",
