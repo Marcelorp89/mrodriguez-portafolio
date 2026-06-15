@@ -49,21 +49,21 @@ export default function Sidebar() {
 
         {/* Redes sociales */}
         <div className="flex items-center gap-3">
-          <a href="https://github.com/tu-usuario" target="_blank" rel="noopener noreferrer"
+          <a href="https://github.com/Marcelorp89" target="_blank" rel="noopener noreferrer"
             className="text-neutral-600 hover:text-neutral-300 transition-colors">
-            <TbBrandGithub  size={16} />
+            <TbBrandGithub  size={20} />
           </a>
-          <a href="https://linkedin.com/in/tu-perfil" target="_blank" rel="noopener noreferrer"
+          <a href="https://www.linkedin.com/in/marcelorodriguezpalma/" target="_blank" rel="noopener noreferrer"
             className="text-neutral-600 hover:text-neutral-300 transition-colors">
-            <TbBrandLinkedin  size={16} />
+            <TbBrandLinkedin  size={20} />
           </a>
-          <a href="https://wa.me/56912345678" target="_blank" rel="noopener noreferrer"
+          <a href="https://wa.me/56942208570" target="_blank" rel="noopener noreferrer"
             className="text-neutral-600 hover:text-neutral-300 transition-colors">
-            <TbBrandWhatsapp   size={16} />
+            <TbBrandWhatsapp   size={20} />
           </a>
-          <a href="instagram" target="_blank" rel="noopener noreferrer"
+          <a href="https://www.instagram.com/automatizaconmarcelo/" target="_blank" rel="noopener noreferrer"
             className="text-neutral-600 hover:text-neutral-300 transition-colors">
-            <TbBrandInstagram    size={16} />
+            <TbBrandInstagram    size={20} />
           </a>
         </div>
       </div>
